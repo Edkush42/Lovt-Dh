@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ropa Sans', sans-serif;
+    
+}
+body
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 1px 1px 10px black;
+}
+header .logo 
+{
+    display: flex;
+    align-items: center;
+}
+header .slogan
+{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    margin-left: 10px;
+}
+header .menu 
+{
+    font-size: 25px;
+
+}
+.carrossel
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.carrossel img
+{
+    width: 60%;
+}
+.carrossel .buttons
+{
+    color: white;
+    z-index: 5;
+    display: flex;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.322);
+    margin: 5px;
+    font-size: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.carrossel #left
+{
+    margin-right: -50px;
+}
+.carrossel #rigth
+{
+    margin-left: -50px;
+}
+.products
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+.cards
+{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.cards .card
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #EEEEEE;
+    width: 256px;
+}
+.cards .card .price 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+.cards .card .price #valor
+{
+    font-size: 20px;
+    color: #888888;
+}
+.cards .card .price #status1
+{
+    display: flex;
+    background-color: #51D275;
+    border-radius: 10.5px;
+    padding: 3px 10px;
+    color: white;
+}
+.cards .card .price #status2
+{
+    display: flex;
+    background-color: #DC9730;
+    border-radius: 10.5px;
+    padding: 3px 10px;
+    color: white;
+}
+.cards .card .desc
+{
+    display: flex;
+    text-align: justify;
+    margin: 10px ;
+}
+.style
+{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.style .cards
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.style .cards .card1
+{
+    display: flex;
+    width: 60%;
+    height: 90px;   
+    background:url(./img/7e8d3adc4a33bb6589f414c41ec27b4a.jpg);
+    background-size:100%;
+    background-position: center;
+    background-repeat:no-repeat;
+    font-size: 50px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 20px;
+}
+.style .cards .card2
+{
+    display: flex;
+    width: 60%;
+    height: 90px;   
+    background:url(./img/ef59e2b4ab9908b7fe4a69bf8c894dd3.jpg);
+    background-size:100%;
+    background-position: center;
+    background-repeat:no-repeat;
+    font-size: 50px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 20px;
+}
+.style .cards .card3
+{
+    display: flex;
+    width: 60%;
+    height: 90px;   
+    background:url(./img/46d7d9d8d89c08abf39246caa90321ed.jpg);
+    background-size:100%;
+    background-position: center;
+    background-repeat:no-repeat;
+    font-size: 50px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 20px;
+}
+footer
+{
+    display: flex;
+    margin-top: 50px;
+    background-color: #333333;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .details ul li
+{
+    color: white;
+    list-style:none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+footer .details .social
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: white;
+
+    
+}
+footer .details .social .social-medias
+{
+    display: flex;
+    
+} 
+footer .details .social .social-medias a
+{
+    color: white;
+    margin-right: 5px;
+    font-size: 25px;
+}
+
